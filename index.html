@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css"
+    <script src="https://kit.fontawesome.com/fb0311b6d4.js" crossorigin="anonymous"></script>
+    <title>My Merch Store</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header> 
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#shop">Shop</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    // Home Page //
+    <section id="home" class="home">
+      <h1>Welcome</h1>
+      <p>Have fun looking around this online store</p>
+      <p>Feel free too leave any feedback in the contact form!</p>
+    </section>
+
+    <!-- PRODUCT LISTING -->
+    <section id="shop" class="shop">
+        <div class="product">
+            <a href='https://postimg.cc/tnpSdfR0' target='_blank'><img src='https://i.postimg.cc/tnpSdfR0/Mock-It-Alstyle-1301-Short-Sleeve-T-Shirt.png' border='0' alt='Mock-It-Alstyle-1301-Short-Sleeve-T-Shirt'/></a>           
+             <h2>T-shirt</h2>
+            <p>$25</p>
+            <button class="seven">Add to Cart</button>
+          <select id="size-select">
+               <option value="S">S</option>
+               <option value="M">M</option>
+               <option value="L">L</option>
+               <option value="XL">XL</option>
+             <option value="XXl">XXL</option>
+           </select>
+        </div>
+
+        <div class="product">
+            <a href='https://postimg.cc/bdv2dPjQ' target='_blank'><img src='https://i.postimg.cc/bdv2dPjQ/Mock-It-AS-Colour-1111-Davie-Six-Panel-Cap.png' border='0' alt='Mock-It-AS-Colour-1111-Davie-Six-Panel-Cap'/></a>           
+             <h2>Cap</h2>
+            <p>$15</p>
+            <button class="six">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <a href='https://postimg.cc/Tp9wcW9B' target='_blank'><img src='https://i.postimg.cc/Tp9wcW9B/Mock-It-American-Apparel-F498-Pullover-Hooded-Sweatshirt.png' border='0' alt='Mock-It-American-Apparel-F498-Pullover-Hooded-Sweatshirt'/></a>           
+             <h2>Hoodie</h2>
+            <p>$35</p>
+            <button class="five">Add to Cart</button>
+          <select id="size-select">
+               <option value="S">S</option>
+               <option value="M">M</option>
+               <option value="L">L</option>
+               <option value="XL">XL</option>
+             <option value="XXl">XXL</option>
+           </select>
+        </div>
+
+    <div class="product">
+        <a href='https://postimg.cc/bZ4KSpMd' target='_blank'><img src='https://i.postimg.cc/bZ4KSpMd/Mock-It-AS-Colour-1001-Carrie-Tote-Bag.png' border='0' alt='Mock-It-AS-Colour-1001-Carrie-Tote-Bag'/></a>       
+         <h2>Bag</h2>
+        <p>$15</p>
+        <button class="four">Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <a href='https://postimg.cc/vg6V3LHG' target='_blank'><img src='https://i.postimg.cc/vg6V3LHG/Mock-It-AS-Colour-4103-Women-s-Official-Zip-Hood.png' border='0' alt='Mock-It-AS-Colour-4103-Women-s-Official-Zip-Hood'/></a>        
+        <h2>Jacket</h2>
+        <p>$15</p>
+        <button class="three">Add to Cart</button>
+      <select id="size-select">
+           <option value="S">S</option>
+           <option value="M">M</option>
+           <option value="L">L</option>
+           <option value="XL">XL</option>
+         <option value="XXl">XXL</option>
+       </select>
+    </div>
+
+    <div class="product">
+        <a href='https://postimg.cc/McrQx3r7' target='_blank'><img src='https://i.postimg.cc/McrQx3r7/Mock-It-Crew-Socks-Tech-1.png' border='0' alt='Mock-It-Crew-Socks-Tech-1'/></a>       
+         <h2>Socks</h2>
+        <p>$15</p>
+        <button class="two">Add to Cart</button>
+    </div>
+
+    <div class="product">
+    <a href='https://postimg.cc/NK3DYM9G' target='_blank'><img src='https://i.postimg.cc/NK3DYM9G/Mock-It-Basketball-Shorts-Tech.png' border='0' alt='Mock-It-Basketball-Shorts-Tech'/></a>        
+    <h2>Shorts</h2>
+        <p>$15</p>
+        <button class="one">Add to Cart</button>
+      <select id="size-select">
+           <option value="S">S</option>
+           <option value="M">M</option>
+           <option value="L">L</option>
+           <option value="XL">XL</option>
+           <option value="XXl">XXL</option>
+       </select>
+    </div>
+
+    <div class="product">
+    <a href='https://postimg.cc/ZC8v0xqd' target='_blank'><img src='https://i.postimg.cc/ZC8v0xqd/smartmockups-m1nvxk2p.png' border='0' alt='smartmockups-m1nvxk2p'/></a>      
+    <h2>Stickers</h2>
+    <p>$15</p>
+        <button class="add">Add to Cart</button>
+    </div>
+   </section>
+
+
+    <!-- CART -->
+  <section id="cart">
+      <button id="checkout-button" class="checkout">Checkout Now Please <span id="cart-count"></span></button>
+    <button id="empty-cart-button" class="empty-cart">Empty Cart</button>
+    <div id="message" class="message" style="display: none;> 
+       <p>NOT A REAL STORE</p>
+    </div>
+  </section>
+
+
+    <section id="contact"></section>
+        <div class="contact-container">
+            <div class="contact-form">
+                <h2>Please Contact</h2> 
+                <form action="https://formspree.io/f/xvgpebny" method="POST"> 
+                    <div class="form-row">
+                        <div class="form-group"> 
+                            <input type="text" name="name" placeholder="Name" required>
+                        </div>
+                        <div class="form-group"> 
+                            <input type="email" name="email" placeholder="Email" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group"> 
+                            <input type="text" name="subject" placeholder="Subject" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group"> 
+                            <textarea name="message" placeholder="Message" required></textarea> 
+                        </div>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button> 
+                </form>
+                <div class="contact-info">
+                    <h3>Contact Information</h3> 
+                    <ul> 
+                        <li><i class="fas fa-envelope"></i> Email: elisecomputing@gmail.com</li> 
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2024 My Merch Store</p>
+    </footer>
+
+    <div id="message" class="text">
+        <p>This is not a real store; it's just for Elise Computing portfolio.</p>
+    </div>
+
+    <script src="script.js">
+    </script>
+</body>
+</html>
