@@ -1,0 +1,367 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: #f5f5f5;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  position: fixed; /* Keep header fixed */
+  top: 0;
+  left: 0;b
+  width: 100%;
+  padding: 1rem 9%;
+  background-color: white; /* White background for header */
+  filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.1)); /* Slight shadow for better visibility */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+nav a {
+  font-size: 1.8rem;
+  margin-left: 25.9rem;
+  font-weight: 500;
+  transition: color 0.3s ease, background-color 0.3s ease; /* Added transition for background color */
+  padding: 0.5rem 1rem; /* Adding some padding for better hover area */
+}
+
+nav a:hover {
+  color: white; /* Change text color on hover */
+  background-color: black; /* Background color on hover */
+  border-radius: 5px; /* Optional: rounded corners for hover effect */
+}
+
+footer {
+  position: relative; /* Changed from absolute to relative */
+  width: 100%;
+  text-align: center;
+  background-color: #f5f5f5; /* Adjust to match your design */
+  color: #8B4513; /* Changed to match the main theme */
+  padding: 10px;
+  font-size: 14px;
+  border-top: 1px solid #ddd; /* Optional: adds a top border */
+}
+
+.add {
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+  font-weight: 100;
+  transition: color 0.3s ease, background-color 0.3s ease; /* Added transition for background color */
+  padding: 0.5rem 1rem; /* Adding some padding for better hover area */
+}
+
+.add:hover {
+  color: white; /* Change text color on hover */
+  background-color: black; /* Background color on hover */
+  border-radius: 5px; /* Optional: rounded corners for hover effect */
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px;
+  background-color: #f5f5f5; /* White background for contact container */
+  margin-bottom: -20px; 
+  padding-top: 150px;
+}
+
+.contact-form {
+  width: 60%;
+}
+
+.contact-form h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+}
+
+.form-group {
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+.form-group input, .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group textarea {
+  height: 150px;
+}
+
+.submit-btn {
+  padding: 12px 25px;
+  background-color: #8B4513; /* Brown button background */
+  color: white; /* White text color */
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #6a3f2b; /* Slightly darker brown for hover */
+}
+
+.contact-info {
+  width: 35%;
+  margin-top: 20px; /* Add margin to space it down from the form */
+}
+
+.contact-info h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info ul li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contact-info ul li i {
+  color: #8B4513;
+  margin-right: 10px;
+}
+
+.one {
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+  font-weight: 100;
+  transition: color 0.3s ease, background-color 0.3s ease; /* Added transition for background color */
+  padding: 0.5rem 1rem; /* Adding some padding for better hover area */
+}
+
+.one:hover {
+  color: white; /* Change text color on hover */
+  background-color: black; /* Background color on hover */
+  border-radius: 5px; /* Optional: rounded corners for hover effect */
+}
+
+.two {
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+  font-weight: 100;
+  transition: color 0.3s ease, background-color 0.3s ease; /* Added transition for background color */
+  padding: 0.5rem 1rem; /* Adding some padding for better hover area */
+}
+
+.two:hover {
+  color: white; /* Change text color on hover */
+  background-color: black; /* Background color on hover */
+  border-radius: 5px; /* Optional: rounded corners for hover effect */
+}
+
+.three {
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+  font-weight: 100;
+  transition: color 0.3s ease, background-color 0.3s ease; /* Added transition for background color */
+  padding: 0.5rem 1rem; /* Adding some padding for better hover area */
+}
+
+.three:hover {
+  color: white; /* Change text color on hover */
+  background-color: black; /* Background color on hover */
+  border-radius: 5px; /* Optional: rounded corners for hover effect */
+}
+
+.four {
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+  font-weight: 100;
+  transition: color 0.3s ease, background-color 0.3s ease; /* Added transition for background color */
+  padding: 0.5rem 1rem; /* Adding some padding for better hover area */
+}
+
+.four:hover {
+  color: white; /* Change text color on hover */
+  background-color: black; /* Background color on hover */
+  border-radius: 5px; /* Optional: rounded corners for hover effect */
+}
+
+.five {
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+  font-weight: 100;
+  transition: color 0.3s ease, background-color 0.3s ease; /* Added transition for background color */
+  padding: 0.5rem 1rem; /* Adding some padding for better hover area */
+}
+
+.five:hover {
+  color: white; /* Change text color on hover */
+  background-color: black; /* Background color on hover */
+  border-radius: 5px; /* Optional: rounded corners for hover effect */
+}
+
+.six {
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+  font-weight: 100;
+  transition: color 0.3s ease, background-color 0.3s ease; /* Added transition for background color */
+  padding: 0.5rem 1rem; /* Adding some padding for better hover area */
+}
+
+.six:hover {
+  color: white; /* Change text color on hover */
+  background-color: black; /* Background color on hover */
+  border-radius: 5px; /* Optional: rounded corners for hover effect */
+}
+
+.seven {
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+  font-weight: 100;
+  transition: color 0.3s ease, background-color 0.3s ease; /* Added transition for background color */
+  padding: 0.5rem 1rem; /* Adding some padding for better hover area */
+}
+
+.seven:hover {
+  color: white; /* Change text color on hover */
+  background-color: black; /* Background color on hover */
+  border-radius: 5px; /* Optional: rounded corners for hover effect */
+}
+
+#cart {
+  text-align: center; /* This centers everything inside the cart section */
+  padding: 20px; /* Optional: Adds space inside the cart section */
+}
+
+.checkout {
+  font-size: 1.2rem; /* Text size for the button */
+  font-weight: 100; /* Weight of the font */
+  transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition for hover */
+  padding: 0.5rem 1rem; /* Adds space inside the button */
+  margin-bottom: -50px; 
+}
+
+.checkout:hover {
+  color: white; /* Change text color on hover */
+  background-color: black; /* Background color on hover */
+  border-radius: 150px; /* Optional: rounded corners for hover effect */
+}
+
+.shop {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+  gap: 20px;
+  padding: 20px;
+  padding-top: 175px;
+  padding-bottom: 175px;
+}
+
+.shop img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain; /* Makes sure images fit uniformly within their containers */
+  aspect-ratio: 1/1; /* Forces images into a square aspect ratio */
+}
+
+.shop .product {
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  min-height: 350px; /* Adjust this value according to your design */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Home Section */
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+  background-color: #f8f8f8; /* Light background for contrast */
+  text-align: center;
+  padding: 20px;
+}
+
+.home h1 {
+  font-size: 3rem; /* Large welcoming text */
+  color: #5a3d2b; /* Brown color for the header */
+  margin-bottom: 20px;
+}
+
+.home p {
+  font-size: 1.2rem; /* Slightly larger paragraph text */
+  color: #5a3d2b; /* Brown color for the text */
+  margin-bottom: 10px;
+}
+
+.home p:last-child {
+  margin-bottom: 0; /* Removes extra margin from the last paragraph */
+}
+
+@media (max-width: 768px) {
+  .home h1 {
+      font-size: 2.5rem; /* Adjust font size for smaller screens */
+  }
+
+  .home p {
+      font-size: 1rem; /* Adjust paragraph font size for mobile */
+  }
+}
+
+.text {
+  position: relative; /* Changed from absolute to relative */
+  width: 100%;
+  text-align: center;
+  background-color: #f5f5f5; /* Adjust to match your design */
+  color: red; /* Changed to match the main theme */
+  padding: 10px;
+  font-size: 14px;
+  border-top: 1px solid #ddd; /* Optional: adds a top border */
+}
+
+#cart-count {
+  font-size: 1rem;
+  color: blue;
+  margin-left: 5px;
+}
+
+#size-select {
+  margin-bottom: 10px; /* Add some space below the dropdown */
+  background-color: lightblue;
+}
+
+.message {
+  background-color: red;
+  padding: 40px;
+  text-align: center;
+}
+
+.empty-cart {
+  font-size: 1.2rem; /* Text size for the button */
+  font-weight: 100; /* Weight of the font */
+  transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition for hover */
+  padding: 0.5rem 1rem; /* Adds space inside the button */
+  margin-bottom: -50px; 
+}
+
+.empty-cart:hover {
+  color: white; /* Change text color on hover */
+  background-color: black; /* Background color on hover */
+  border-radius: 150px; /* Optional: rounded corners for hover effect */
+}
